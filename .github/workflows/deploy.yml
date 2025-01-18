@@ -38,5 +38,5 @@ jobs:
       - name: Output information
         run: |        
           echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
-          echo "MONGODB_PASSWORD: £{{ env.MONGODB_PASSWORD }}" # This will not work
+          echo "MONGODB_PASSWORD: ${{ env.MONGODB_PASSWORD }}" # This will not work
           
